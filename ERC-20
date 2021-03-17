@@ -3,10 +3,10 @@ pragma solidity ^0.5.00;
 // ----------------------------------------------------------------------------
 // 'PratToken' token contract
 //
-// Deployed to : 0x56F0c0A7b4763567b3724211482e8d0fB33B30B7
-// Symbol      : PRT
-// Name        : PratToken
-// Total supply: 100000000
+// Deployed to : 0x775936c4dCA762d38E329930C60Dc4a71B724ca1
+// Symbol      : HEP
+// Name        : HepCoin
+// Total supply: 69420000000
 // Decimals    : 18
 //
 // Enjoy.
@@ -113,12 +113,12 @@ contract PratToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "PRT";
-        name = "PratToken";
+        symbol = "HEP";
+        name = "HepCoin";
         decimals = 18;
-        _totalSupply = 100000000000000000000000000;
-        balances[0x56F0c0A7b4763567b3724211482e8d0fB33B30B7] = _totalSupply;
-        emit Transfer(address(0), 0x56F0c0A7b4763567b3724211482e8d0fB33B30B7, _totalSupply);
+        _totalSupply = 69420000000;
+        balances[0x775936c4dCA762d38E329930C60Dc4a71B724ca1] = _totalSupply;
+        emit Transfer(address(0), 0x775936c4dCA762d38E329930C60Dc4a71B724ca1, _totalSupply);
     }
 
 
